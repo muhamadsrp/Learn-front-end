@@ -1,0 +1,31 @@
+#judulid {
+  font-size: 18
+}
+
+.judul {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 22px !important;
+  }
+
+
+.register {
+
+}
+
+#buttonid {
+  color: red;
+  font-size: 12px;
+}
+
+.buttonclass {
+  color: blue;
+  font-size: 18px !important;
+}
+
+button {
+  font-size: 24px;
+  color: orange !important;
+}

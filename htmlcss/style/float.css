@@ -1,0 +1,13 @@
+.img-head {
+
+}
+.img-descript {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+}
+
+h1 {
+  display: inline-block;
+}

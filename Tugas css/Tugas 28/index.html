@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+  </head>
+  <style media="screen">
+    body {
+      background-color: #333333;
+      margin: 0 Auto;
+    }
+    #container {
+      margin: 0 auto !important;
+      padding-top: 50px;
+      align-item: center;
+      /* border: 1px solid #ffffff !important; */
+      width: 500px;
+    }
+    form {
+      color: #ffffff;
+      display: flex;
+      border: 1 solid #ffffff;
+    }
+    .form-check-label {
+      font-size: 10px;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <form class="row g-3" action="index.html" method="post">
+      <div id="container"class="box-form position-relative" style="margin:30px;" width="50px">
+        <div class="text-center">
+          <img src="img/lampung.jpg" width="150" class="rounded-circle" alt="Lampung">
+        </div><br>
+        <div class="">
+          <label>Nama Lengkap</label><br>
+          <input type="text" class="form-control" placeholder="Nama Lengkap">
+        </div><br>
+        <div class="">
+          <label>Alamat</label><br>
+          <textarea name="name" class="form-control" rows="3" cols="50"></textarea>
+        </div><br>
+        <div class="">
+          <label>Alamat Email</label><br>
+          <input type="email" class="form-control" placeholder="Alamat email (disabled)" disabled>
+        </div><br>
+        <div class="">
+          <label>Password</label><br>
+          <input type="password" placeholder="Password" class="form-control">
+        </div><br>
+        <div class="">
+          <label>Scan KTP</label><br>
+          <input type="file">
+        </div><br>
+        <div class="c">
+          <div class="">
+            <input class="" type="checkbox">
+            <label class="form-check-label">
+              Saya setuju dan telah membaca <a href="#">aturan</a> serta <a href="#">ketentuan</a> yang berlaku.
+            </label>
+          </div>
+        </div><br>
+        <div class="d-grid gap-2 col">
+          <button type="button" class="btn btn-primary" name="button">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

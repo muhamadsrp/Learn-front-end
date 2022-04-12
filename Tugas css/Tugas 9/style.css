@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: 650px;
+  z-index: 1;
+}
+
+.container {
+  width: 650px;
+  height: 550px;
+  background-color: white;
+  padding: 10px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  float: right;
+  z-index: 2;
+}
+
+.paraghraf {
+  text-align: right;
+}
+
+p {
+  font-weight: bold;
+}

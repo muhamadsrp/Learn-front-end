@@ -1,0 +1,20 @@
+.overflow1 {
+  width: 150px;
+  height: 150px;
+  overflow: scroll;
+  background-color: #ef476f;
+}
+
+.overflow2 {
+  width: 150px;
+  height: 150px;
+  overflow: auto;
+  background-color: #ffd166;
+}
+
+.overflow3 {
+  width: 150px;
+  height: 150px;
+  overflow: scroll;
+  background-color: #06d6a0;
+}

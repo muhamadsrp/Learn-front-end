@@ -1,0 +1,25 @@
+div {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  float: left;
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.satu {
+  background-image: linear-gradient(to top, blue, white);
+}
+
+.dua {
+  background-image: linear-gradient(to bottom right, blue, white);
+}
+
+.tiga {
+  background-image: linear-gradient(to top right, red, yellow, green );
+}
+
+.empat {
+  background-image: linear-gradient(to right, red, yellow, green, blue, violet);
+}

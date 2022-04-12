@@ -1,0 +1,15 @@
+.outlineCSS {
+  margin-top: 30px;
+
+  word-spacing: 20px;
+  letter-spacing: 28px;
+
+  outline-style: solid;
+  outline-color: blue;
+  outline-width: 20px;
+
+  border-style: dashed;
+  border-color: violet;
+  border-width: 20px;
+
+}

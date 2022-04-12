@@ -1,0 +1,42 @@
+.div_menu {
+  background-color: black;
+}
+
+.menu   {
+  text-transform:uppercase;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+.slider-div {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+
+.slider {
+  width: 45%;
+}
+
+a:hover {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-alamat {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: inherit;
+}

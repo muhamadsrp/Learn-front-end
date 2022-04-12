@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+@font-face {
+  src : url("Poppins-Light.otf");
+  font-family : "poppins";
+}
+.container,
+.container2,
+.container3 {
+  background-color: inherit;
+  margin: 0;
+  font-family: "poppins", monospace, sans-serif;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+}
+
+.container3 {
+  margin: 0;
+  display: flex;
+}
+
+.box {
+  width: 150px;
+  color: white;
+  text-align: center;
+  margin: 0;
+
+  padding: 20px;
+
+}
+
+.box1 {
+ background-color: #4cc9f0;
+}
+
+.box2 {
+  background-color: #06d6a0;
+}
+
+.box3 {
+ background-color: #0077b6;
+}
+
+.box4 {
+ background-color: #7b2cbf;
+}
+
+.box5 {
+ background-color: #023047;
+}
+
+.box6 {
+ background-color: #ffb703;
+}
+
+.box7 {
+ background-color: #fb8500;
+}
+
+.box8 {
+ background-color: #eb4511;
+}
+
+.box9 {
+ background-color: #adb5bd;
+}
+
+.box10 {
+ background-color: gray;
+}

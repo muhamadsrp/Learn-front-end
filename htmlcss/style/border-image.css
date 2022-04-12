@@ -1,0 +1,39 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+  border: solid;
+}
+
+.satu, .dua, .tiga, .empat {
+  border: solid;
+  width : 200px;
+  height: 200px;
+  background-color: green;
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+}
+
+.satu {
+  border-image-source: url("../img/hearts.png");
+  border-image-width : 50px;
+}
+
+.dua {
+  border-image-source: url("../img/border2.png");
+  border-image-width : 50px;
+  border-image-slice: 15%;
+}
+
+.tiga {
+  border-image-source: url("../img/border3.png");
+  border-image-width: 50px;
+  border-image-outset: 30px;
+}
+
+.empat {
+  border-image-source: url("../img/border4.png");
+  border-image-width: 50px;
+  border-image-slice: 33%;
+  border-image-repeat: repeat;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+  </head>
+  <style media="screen">
+    * {
+      margin: 0 auto;
+    }
+    body {
+      margin: 0 auto;
+      padding: 50px;
+      background-color: #ced4da;
+    }
+    div {
+      display: block;
+    }
+    .box-header {
+      margin-bottom: 10px !important;
+    }
+    .form {
+      width: 400px;
+    }
+  </style>
+  <body>
+    <div class="ui middle aligned center aligned grid box-header">
+      <div class="column">
+        <h3 class="ui teal image header">
+          <img class="image" src="niomic.png" alt="Icon Niomic">
+          <div class="content">Daftar Akun NIOMIC</div>
+        </h3>
+      </div>
+    </div>
+
+    <form class="ui form center">
+      <div class="ui stacked segment box-container">
+        <div class="ui field left icon input">
+          <input type="text" placeholder="Nama Depan">
+          <i class="user icon"></i>
+        </div>
+        <div class="ui field left icon input">
+          <input type="text" name="nama-belakang" placeholder="Nama Belakang">
+          <i class="user icon"></i>
+        </div>
+        <div class="ui field left icon input">
+          <input type="number" name="no-hp" placeholder="No Telp/HP">
+          <i class="user icon"></i>
+        </div>
+        <div class="ui field left icon input">
+          <input type="email" name="email" placeholder="Alamat Email">
+          <i class="user icon"></i>
+        </div>
+        <div class="ui field left icon input">
+          <input type="password" name="password" placeholder="Password">
+          <i class="icon lock"></i>
+        </div>
+        <div class="field">
+          <button class="fluid ui teal submit button">Login</button>
+        </div>
+      </div>
+    </form>
+
+    <script src="semantic.min.js"></script>
+  </body>
+</html>
